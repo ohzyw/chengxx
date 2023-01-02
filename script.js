@@ -1,7 +1,7 @@
 var foods = "小明  小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 "
 var food = foods.split(" ")
 var main = document.getElementsByClassName("main")[0]
-main.innerHTML = "陈欣欣🤩"
+
 var start = document.getElementById("start")
 var back = document.getElementsByClassName("back")[0]
 var stop = true

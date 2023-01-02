@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* background: url(./Icebox\ Cluster.jpg) no-repeat; */
+    /* background: url(./Vyoletz\ Nebula.jpg) no-repeat; */
+    background-size: cover;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.back span {
+    white-space: nowrap;
+}
+
+.main {
+    color: cornflowerblue;
+    font-size: 40px;
+    text-shadow: 0 0 3px white, 0 0 10px white, 0 0 20px rgb(181, 161, 161);
+}
+
+#start {
+    position: absolute;
+    transform: translateY(80px);
+    font-size: 25px;
+    background: transparent;
+    /* border: 1px solid #ff7f50; */
+    padding: 10px;
+    border-radius: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+#start:hover {
+    background: white;
+    color: #ff7f50;
+}

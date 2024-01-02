@@ -1,4 +1,4 @@
-var foods = "小明  小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 小明 "
+var foods = "张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样  张金样"
 var food = foods.split(" ")
 var main = document.getElementsByClassName("main")[0]
 var start = document.getElementById("start")

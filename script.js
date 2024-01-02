@@ -4,7 +4,7 @@ var main = document.getElementsByClassName("main")[0]
 var start = document.getElementById("start")
 var back = document.getElementsByClassName("back")[0]
 var stop = false
-var texts = ["zjy"]
+var texts = []
 var colors = [
     "#eccc68",
     "#ffa502",

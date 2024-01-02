@@ -36,7 +36,7 @@ function draw() {
     back.innerHTML = ""
     if (!stop) {
         main.innerHTML = food[parseInt(Math.random() * food.length)]
-        start.innerHTML = "就是你了"
+        // start.innerHTML = "就是你了"
     } else {}
     for (var i = 0; i < texts.length; i++) {
         text = texts[i]
